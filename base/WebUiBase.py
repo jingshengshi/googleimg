@@ -104,3 +104,25 @@ class WebUiBase(object):
         except Exception as ex:
             print(ex)
 
+    def wait_page_contains(self, text, timeout=10):
+        '''
+        等待网页中包含文本
+        :param text: 检验的文本
+        :param timeout: 等待超时时间
+        :return:
+        '''
+        try:
+            print('wait_page_contains', text)
+            start = time.time()
+            while time.time()- start < int(timeout):
+                try:
+                    self.selib.page_should_contain(text)
+                    print(text)
+                    print("is contained")
+                    return True
+                except Exception:
+                    pass
+                time.sleep(0.5)
+            return False
+        except Exception as ex:
+            print(ex)

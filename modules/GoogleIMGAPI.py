@@ -40,9 +40,8 @@ class GoogleIMGAPI(WebUiBase):
         strings="//*[@id='islrg']/div[1]/div[" + result + "]"
         self.selib.click_element(strings)
         sleep(0.5)
-
-        sleep(0.5)
         self.get_page_screenshot()
+        self.wait_page_contains(text)
         sleep(0.5)
 if __name__ == "__main__":
     t = GoogleIMGAPI()

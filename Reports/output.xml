@@ -1,45 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.2 (Python 3.7.7 on win32)" generated="20200504 14:17:37.560" rpa="false">
+<robot generator="Robot 3.2 (Python 3.7.7 on win32)" generated="20200504 14:36:47.599" rpa="false">
 <suite id="s1" name="Robotcase" source="C:\Users\py3\PycharmProjects\googleimg\robotcase">
 <suite id="s1-s1" name="test caseGIMG" source="C:\Users\py3\PycharmProjects\googleimg\robotcase\test_caseGIMG.robot">
 <kw name="Test0 Setup EN" library="case.TestCmGoogleIMGEN" type="setup">
-<msg timestamp="20200504 14:17:37.763" level="INFO">setup</msg>
-<status status="PASS" starttime="20200504 14:17:37.763" endtime="20200504 14:17:37.763"></status>
+<msg timestamp="20200504 14:36:47.802" level="INFO">setup</msg>
+<status status="PASS" starttime="20200504 14:36:47.802" endtime="20200504 14:36:47.802"></status>
 </kw>
 <test id="s1-s1-t1" name="Test google images">
 <kw name="Test001 Find Images EN" library="case.TestCmGoogleIMGEN">
-<msg timestamp="20200504 14:17:37.779" level="INFO">result=3
+<msg timestamp="20200504 14:36:47.802" level="INFO">result=3
  </msg>
-<msg timestamp="20200504 14:17:37.779" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
-<msg timestamp="20200504 14:17:42.516" level="INFO">Opening url 'http://www.google.com
+<msg timestamp="20200504 14:36:47.802" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<msg timestamp="20200504 14:36:53.092" level="INFO">Opening url 'http://www.google.com
 '</msg>
-<msg timestamp="20200504 14:17:47.835" level="INFO">Clicking element '//*[@id='gbw']/div/div/div[1]/div[2]/a'.</msg>
-<msg timestamp="20200504 14:17:50.882" level="INFO">Typing text 'dog
+<msg timestamp="20200504 14:36:58.083" level="INFO">Clicking element '//*[@id='gbw']/div/div/div[1]/div[2]/a'.</msg>
+<msg timestamp="20200504 14:37:00.149" level="INFO">Typing text 'dog
 ' into text field '//*[@id='sbtc']/div/div[2]/input'.</msg>
-<msg timestamp="20200504 14:17:54.943" level="INFO">Clicking element '//*/input'.</msg>
-<msg timestamp="20200504 14:17:57.616" level="INFO">Clicking element '//*[@id='islrg']/div[1]/div[3
+<msg timestamp="20200504 14:37:03.734" level="INFO">Clicking element '//*/input'.</msg>
+<msg timestamp="20200504 14:37:06.415" level="INFO">Clicking element '//*[@id='islrg']/div[1]/div[3
 ]'.</msg>
-<msg timestamp="20200504 14:18:00.077" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
-<msg timestamp="20200504 14:18:04.984" level="INFO">uibase init
+<msg timestamp="20200504 14:37:08.410" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-3.png"&gt;&lt;img src="selenium-screenshot-3.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20200504 14:37:29.193" level="INFO">uibase init
 dog
 
 http://www.google.com
 
 Screen shot saved
+wait_page_contains dog
+
 test001_find_images_EN</msg>
-<status status="PASS" starttime="20200504 14:17:37.763" endtime="20200504 14:18:04.984"></status>
+<status status="PASS" starttime="20200504 14:36:47.802" endtime="20200504 14:37:29.193"></status>
 </kw>
 <tags>
 <tag>gimg</tag>
 </tags>
-<status status="PASS" starttime="20200504 14:17:37.763" endtime="20200504 14:18:04.984" critical="yes"></status>
+<status status="PASS" starttime="20200504 14:36:47.802" endtime="20200504 14:37:29.193" critical="yes"></status>
 </test>
 <kw name="Test0 Teardown EN" library="case.TestCmGoogleIMGEN" type="teardown">
-<status status="PASS" starttime="20200504 14:18:04.984" endtime="20200504 14:18:04.984"></status>
+<status status="PASS" starttime="20200504 14:37:29.193" endtime="20200504 14:37:29.193"></status>
 </kw>
-<status status="PASS" starttime="20200504 14:17:37.576" endtime="20200504 14:18:04.984"></status>
+<status status="PASS" starttime="20200504 14:36:47.614" endtime="20200504 14:37:29.193"></status>
 </suite>
-<status status="PASS" starttime="20200504 14:17:37.560" endtime="20200504 14:18:04.984"></status>
+<status status="PASS" starttime="20200504 14:36:47.599" endtime="20200504 14:37:29.193"></status>
 </suite>
 <statistics>
 <total>
